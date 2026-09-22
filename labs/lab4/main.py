@@ -6,5 +6,5 @@ def f(n):
     else:
         return 0
 
-n = int(input())
+n = int(input("Введіть n: "))
 print(f(n))
