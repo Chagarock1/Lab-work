@@ -12,9 +12,7 @@ def count_spaces(text):
 
 res1_start, res1_end = count_spaces("  user7 ")
 print(f'Тест 1 ("  user7 "): {res1_start}; {res1_end}')
-
 res2_start, res2_end = count_spaces("    ")
 print(f'Тест 2 ("    "): {res2_start}; {res2_end}')
-
 res3_start, res3_end = count_spaces("user7")
 print(f'Тест 3 ("user7"): {res3_start}; {res3_end}')
